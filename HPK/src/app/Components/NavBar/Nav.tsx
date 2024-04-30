@@ -6,13 +6,13 @@ const NavLinks = () => {
   return (
     <>
       <a
-        href="#"
+        href="./vorur"
         className="border-solid border-2 border-red-500 rounded-md  p-1 bg-white mt-1 w-24 text-center md:mr-4"
       >
         Vörur
       </a>
       <a
-        href="#"
+        href="./pantarnir"
         className="border-solid border-2 border-red-500 rounded-md p-1 bg-white mt-1 w-24 text-center md:mr-4"
       >
         Pantanir
