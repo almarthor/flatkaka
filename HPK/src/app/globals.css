@@ -16,10 +16,28 @@
   }
 }
 
-
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Add this to your global CSS file or a CSS module */
+.custom-swiper-button {
+  background-color: rgba(243, 244, 246, 0.7); /* gray-100 with opacity-70 */
+  height: 400px; /* Match the height of the cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red !important;
+  font-size: 40px !important;
+  width: 60px; /* Adjust the width as needed */
+  border-radius: 10px;
+  z-index: 10; /* Ensure it appears above the cards */
+}
+
+.custom-swiper-button-prev::after,
+.custom-swiper-button-next::after {
+  color: red !important;
+  font-size: 40px !important;
 }

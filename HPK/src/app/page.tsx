@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div>
       <TopNav />
-      <div className="sticky top-0">
+      <div className="sticky top-0 h-[800px]">
         <HeroScreen />
-      </div>
-      <div className="">
-        <ActiveSlider />
+        <div className=" inset-0 absolute top-80">
+          <ActiveSlider />
+        </div>
       </div>
       <div>
         <UmOkkur />
