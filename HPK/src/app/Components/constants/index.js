@@ -1,7 +1,7 @@
 // src/Components/constants/index.ts
 export const ServiceData = [
   {
-    title: "Flatkaka",
+    title: "FLATKÖKUR",
     content: "Hver vill ekki góða flatköku. Ummm, hvað þær eru góðar.",
     Image: "/Flatkaka.png",
     ingredients:
@@ -12,12 +12,11 @@ export const ServiceData = [
     fitusyra: "0,3",
     kolvetni: "44,9",
     sykur: "0,5",
-    trefjar: "2,9",
     protein: "6,4",
     salt: "1,2",
   },
   {
-    title: "Fjallagrasakaka",
+    title: "FJALLAGRASAKÖKUR",
     content:
       "Þessar eru eins og hefðbundnu sívinsælu flatkökurnar okkar en við bætum í þær fjallagrösum sem gefa þeim einstakt bragð.",
     Image: "/Fjallagrasakaka.png",
@@ -29,12 +28,11 @@ export const ServiceData = [
     fitusyra: "0,3",
     kolvetni: "43,3",
     sykur: "0,5",
-    trefjar: "2,9",
     protein: "6,2",
     salt: "1,2",
   },
   {
-    title: "Kleinur",
+    title: "KLEINUR",
     content:
       "Nýbakaðar kleinur og mjólk, hvað er betra en það? Ekki mikið getum við sagt ykkur.",
     Image: "/Kleinur.png",
@@ -46,12 +44,11 @@ export const ServiceData = [
     fitusyra: "2,5",
     kolvetni: "50,9",
     sykur: "14",
-    trefjar: "2,9",
     protein: "7,7",
     salt: "1,6",
   },
   {
-    title: "Rúgbrauð",
+    title: "RÚGBRAUÐ",
     content: "Góður þrumari, flottur í kaffiboðinu",
     Image: "/Rugbraud.png",
     ingredients:
@@ -62,12 +59,11 @@ export const ServiceData = [
     fitusyra: "0,3",
     kolvetni: "48,9",
     sykur: "18",
-    trefjar: "2,9",
     protein: "2,3",
     salt: "2",
   },
   {
-    title: "Snúðar",
+    title: "SNÚÐAR",
     content: "Klassískir kanel snúðar.",
     Image: "/Snudar.png",
     ingredients:
@@ -78,7 +74,6 @@ export const ServiceData = [
     fitusyra: "10",
     kolvetni: "60,2",
     sykur: "26,5",
-    trefjar: "2,9",
     protein: "5,8",
     salt: "0,9",
   },

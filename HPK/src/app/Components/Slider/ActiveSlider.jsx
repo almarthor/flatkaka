@@ -36,10 +36,10 @@ const ActiveSlider = () => {
           prevEl: ".swiper-button-prev",
         }}
         loop={true}
-        autoplay={{
-          delay: 1000,
-          disableOnInteraction: false,
-        }}
+        //  autoplay={{
+        // delay: 1000,
+        //   disableOnInteraction: false,
+        // }}
         speed={2000}
         modules={[FreeMode, Autoplay, Navigation]}
         className="w-full"

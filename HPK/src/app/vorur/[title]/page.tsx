@@ -15,7 +15,7 @@ const VorurDetail = () => {
   return (
     <div className="p-8">
       <div className="text-center mb-8">
-        <h1 className="text-2xl mt-9">{item.title}</h1>
+        <h1 className="text-5xl font-bold mt-9 text-gray-800">{item.title}</h1>
       </div>
       <div className="flex justify-center relative">
         <div
@@ -62,10 +62,6 @@ const VorurDetail = () => {
           <div className="flex justify-between border-b-2 p-2 border-red-500">
             <p>-þar af sykurtegundir(g)</p>
             <p>{item.sykur}</p>
-          </div>
-          <div className="flex justify-between border-b-2 p-2 border-red-500">
-            <p>Trefjar(g)</p>
-            <p>{item.trefjar}</p>
           </div>
           <div className="flex justify-between border-b-2 p-2 border-red-500">
             <p>Prótein(g)</p>
