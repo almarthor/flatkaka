@@ -4,7 +4,6 @@ import { ServiceData } from "../Components/constants";
 const Vorur = () => {
   return (
     <div className="p-8">
-      <h1>VÖRURNAR OKKAR</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {ServiceData.map((item) => (
           <Link key={item.title} href={`/vorur/[title]?title=${item.title}`}>
@@ -26,12 +25,6 @@ const Vorur = () => {
           </Link>
         ))}
       </div>
-      <Link
-        href="/"
-        className="border-solid border-black border-2 m-3 p-2 inline-block"
-      >
-        Til Baka
-      </Link>
     </div>
   );
 };

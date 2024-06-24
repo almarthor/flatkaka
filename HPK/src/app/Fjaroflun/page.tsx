@@ -21,7 +21,7 @@ export default function FjaroflunPage() {
           />
           <div className="absolute inset-0 flex items-center justify-center bg-red-500 text-center text-2xl font-bold bg-opacity-20">
             <p className="text-white p-8">
-              VIÐ HÖFUM STUTT VIÐ ÍSLENKST SAMFÉLAG Í 50 ÁR
+              VIÐ HÖFUM STUTT VIÐ ÍSLENKST SAMFÉLAG Í YFIR 50 ÁR
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function FjaroflunPage() {
             velit architecto. Iste, aliquam temporibus.
           </p>
         </div>
-        <div className="sm:ml-4 p-8 col">
+        <div className="sm:ml-4 p-8 col bg-red-100 rounded-md mt-3 sm:mr-4">
           <h1 className="mb-4 font-bold text-xl">Sentu á okkur línu</h1>
           <div>
             <p>NAFN</p>

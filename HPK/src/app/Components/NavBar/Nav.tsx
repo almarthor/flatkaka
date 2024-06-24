@@ -6,22 +6,22 @@ const NavLinks = () => {
   return (
     <>
       <a
-        href="./vorur"
-        className="border-solid border-2 border-red-500 rounded-md  p-1 bg-white mt-1 w-24 text-center md:mr-4"
+        href="/"
+        className=" container border-solid border-b-2 border-red-500 p-2  hover:border-green-600 mt-1 w-auto text-center md:mr-4"
       >
-        Vörur
+        HEIM
       </a>
       <a
-        href="./Fjaroflun"
-        className="border-solid border-2 border-red-500 rounded-md p-1 bg-white mt-1 w-fit text-center md:mr-4"
+        href="/vorur"
+        className=" container border-solid border-b-2 border-red-500 p-2  hover:border-green-600 mt-1 w-auto text-center md:mr-4"
+      >
+        VÖRUR
+      </a>
+      <a
+        href="/Fjaroflun"
+        className=" container border-solid border-b-2 border-red-500 p-2 hover:border-green-600 mt-1 w-auto text-center md:mr-4"
       >
         FJÁRÖFLUN
-      </a>
-      <a
-        href="#"
-        className=" container border-solid border-2 border-red-500 rounded-md p-1 bg-white mt-1 w-24 text-center md:mr-4"
-      >
-        Við
       </a>
     </>
   );
