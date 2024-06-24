@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -12,7 +12,7 @@ const NavLinks = () => {
         Vörur
       </a>
       <a
-        href="./pantarnir"
+        href="./Fjaroflun"
         className="border-solid border-2 border-red-500 rounded-md p-1 bg-white mt-1 w-fit text-center md:mr-4"
       >
         FJÁRÖFLUN
