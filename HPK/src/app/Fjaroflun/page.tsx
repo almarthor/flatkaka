@@ -74,7 +74,7 @@ export default function FjaroflunPage() {
             />
           </div>
           <div className="text-center">
-            <button className="bg-red-500 p-3 rounded-xl w-full text-white font-bold">
+            <button className="bg-red-500 hover:bg-green-600 p-3 rounded-xl w-full text-white font-bold">
               SENDA
             </button>
           </div>

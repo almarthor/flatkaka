@@ -64,7 +64,7 @@ export const ServiceData = [
   },
   {
     title: "SNÚÐAR",
-    content: "Klassískir kanel snúðar.",
+    content: "Klassískir kanil snúðar.",
     Image: "/Snudar.png",
     ingredients:
       "Hveiti, sykur, smjörlíki (pálmaolía, repjuolía, vatn, salt, sýra (E300), ýruefni (E471), þrávarnarefni (E306, E304), bragðefni), egg, sulta (rabbabari (45%), sykur, vatn, bindiefni (E440), rotvarnarefni (E211)), lyftiefni (E450, E500), kanill.\n\nHeimildir: ÍSGEM og upplýsingablöð frá framleiðanda.\n\nUnnið samkvæmt reglugerð nr. 1294/2014 (EU nr. 1169/2011)\nHeimildir: ÍSGEM og upplýsingablöð frá framleiðanda\n\n– Næringargildi eru afrúnnuð samkvæmt leiðbeiningum frá MAST um næringaryfirlýsingu á matvælum og skulu notuð þannig við merkingar.\n\n– Ekki er skylt að merkja trefjar samkv. reglugerð en þær mega koma fram sem viðbótaupplýsingar.",

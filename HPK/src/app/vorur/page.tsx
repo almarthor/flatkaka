@@ -7,7 +7,7 @@ const Vorur = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {ServiceData.map((item) => (
           <Link key={item.title} href={`/vorur/[title]?title=${item.title}`}>
-            <div className="border-2 border-solid border-red-500 p-4 rounded-lg shadow-lg cursor-pointer flex flex-col h-full">
+            <div className="border-2 border-solid border-red-500 hover:border-green-600 hover:shadow-2xl p-4 rounded-lg shadow-lg cursor-pointer flex flex-col h-full">
               <div className="h-16 flex items-center justify-center border-b-2 border-red-500">
                 <h2 className="text-xl text-center">{item.title}</h2>
               </div>
