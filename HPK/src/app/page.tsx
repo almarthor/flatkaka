@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="bg-gray-50">
       <TopNav />
-      <div className="sticky top-0 h-[800px] sm:h-screen">
+      <div className="sticky top-0 h-screen">
         <div className="">
           <HeroScreen />
         </div>
