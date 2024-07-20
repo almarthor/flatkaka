@@ -14,7 +14,7 @@ const ActiveSlider = () => {
       <Swiper
         breakpoints={{
           200: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 15,
           },
           500: {
