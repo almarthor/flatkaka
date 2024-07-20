@@ -11,14 +11,14 @@ export default function Home() {
     <div className="bg-gray-50">
       <TopNav />
       <div className="sticky top-0 h-[800px] sm:h-screen">
-        <div className="hidden sm:block">
+        <div className="">
           <HeroScreen />
         </div>
         <div className=" inset-0 absolute top-40 sm:top-60">
           <ActiveSlider />
           <Link
             href={"/vorur"}
-            className="sm:hidden block text-center border-2 border-red-500 mx-36 text-xl  rounded-md p-1"
+            className="bg-white sm:hidden block text-center border-2 border-red-500 mx-36 text-xl  rounded-md p-1"
           >
             {" "}
             Allar Vörur

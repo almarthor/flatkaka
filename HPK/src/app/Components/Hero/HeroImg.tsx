@@ -4,8 +4,8 @@ const HeroImg = () => {
   return (
     <div className="opacity-95 z-40">
       <img
-        className="w-full sm:h-auto h-[500px] object-cover"
-        src="/HeroImg.jpg"
+        className="h-screen overflow-hidden object-cover"
+        src="/bru.jpg"
         alt="hero"
       />
     </div>
