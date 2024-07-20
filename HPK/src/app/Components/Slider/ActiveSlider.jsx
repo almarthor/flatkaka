@@ -40,8 +40,8 @@ const ActiveSlider = () => {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        speed={0}
-        modules={[FreeMode, Autoplay, Navigation]}
+        speed={2000}
+        modules={[FreeMode, Navigation]}
         className="w-full"
       >
         {ServiceData.map((item) => (
@@ -65,14 +65,14 @@ const ActiveSlider = () => {
                     <p className="text-sm lg:text-base">{item.content}</p>
                   </div>
                 </div>
-                <RxArrowTopRight className="sm:hidden absolute bottom-5 right-5 w-[35px] h-[35px] group-hover:text-red-500 group-hover:rotate-45 duration-100" />
+                <RxArrowTopRight className="absolute bottom-5 right-5 w-[35px] h-[35px] group-hover:text-red-500 group-hover:rotate-45 duration-100" />
               </div>
             </Link>
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="swiper-button-prev custom-swiper-button absolute left-0 top-0 bottom-0 my-auto cursor-pointer"></div>
-      <div className="swiper-button-next custom-swiper-button absolute right-0 top-0 bottom-0 my-auto cursor-pointer"></div>
+      <div className=" sm:hidden swiper-button-prev custom-swiper-button absolute left-0 top-0 bottom-0 my-auto cursor-pointer"></div>
+      <div className=" sm:hidden swiper-button-next custom-swiper-button absolute right-0 top-0 bottom-0 my-auto cursor-pointer"></div>
     </div>
   );
 };
