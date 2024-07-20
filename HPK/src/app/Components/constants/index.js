@@ -16,7 +16,7 @@ export const ServiceData = [
     salt: "1,2",
   },
   {
-    title: "FJALLAGRASAKÖKUR",
+    title: "FJALLAGRASA",
     content:
       "Þessar eru eins og hefðbundnu sívinsælu flatkökurnar okkar en við bætum í þær fjallagrösum sem gefa þeim einstakt bragð.",
     Image: "/Fjallagrasakaka.png",
