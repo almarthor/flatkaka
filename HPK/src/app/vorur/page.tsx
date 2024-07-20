@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { ServiceData } from "../Components/constants";
 
 const Vorur = () => {
