@@ -14,15 +14,16 @@ export default function Home() {
         <div className="">
           <HeroScreen />
         </div>
-        <div className=" inset-0 absolute top-40 sm:top-60">
+        <div className="inset-0 absolute top-40 sm:top-60">
           <ActiveSlider />
-          <Link
-            href={"/vorur"}
-            className="bg-white sm:hidden block text-center border-2 border-red-500 mx-36 text-xl  rounded-md p-1"
-          >
-            {" "}
-            Allar Vörur
-          </Link>
+          <div className="flex justify-center mt-4 sm:hidden">
+            <Link
+              href={"/vorur"}
+              className="bg-white text-center border-2 border-red-500 text-xl rounded-md p-1"
+            >
+              Allar Vörur
+            </Link>
+          </div>
         </div>
       </div>
       <div>

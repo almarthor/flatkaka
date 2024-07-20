@@ -15,7 +15,7 @@ export default function FjaroflunPage() {
           style={{ height: "calc(100vh * 1 / 3)" }}
         >
           <img
-            src="/Heroimg.jpg"
+            src="./Heroimg.jpg"
             alt=""
             className="w-full h-full object-cover"
           />
