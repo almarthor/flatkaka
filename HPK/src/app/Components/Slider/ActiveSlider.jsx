@@ -40,7 +40,7 @@ const ActiveSlider = () => {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        speed={2000}
+        speed={0}
         modules={[FreeMode, Autoplay, Navigation]}
         className="w-full"
       >
@@ -65,7 +65,7 @@ const ActiveSlider = () => {
                     <p className="text-sm lg:text-base">{item.content}</p>
                   </div>
                 </div>
-                <RxArrowTopRight className="absolute bottom-5 right-5 w-[35px] h-[35px] group-hover:text-red-500 group-hover:rotate-45 duration-100" />
+                <RxArrowTopRight className="sm:hidden absolute bottom-5 right-5 w-[35px] h-[35px] group-hover:text-red-500 group-hover:rotate-45 duration-100" />
               </div>
             </Link>
           </SwiperSlide>

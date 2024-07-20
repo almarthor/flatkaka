@@ -75,7 +75,7 @@ const VorurDetail = () => {
       </div>
       <Link
         href="/vorur"
-        className="border-solid border-red-500 border-2 m-3 p-2 inline-block mt-4 hover:border-green-600"
+        className="border-solid border-red-500 border-2 m-3 p-2 inline-block mt-4 hover:border-green-600 rounded-md"
       >
         VÖRUR
       </Link>
