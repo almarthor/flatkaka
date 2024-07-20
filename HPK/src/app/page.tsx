@@ -7,11 +7,11 @@ import UmOkkur from "./Components/UmOkkur/UmOkkur";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-50">
       <TopNav />
-      <div className="sticky top-0 h-[800px]">
+      <div className="sticky top-0 h-[800px] sm:h-screen">
         <HeroScreen />
-        <div className=" inset-0 absolute top-60 sm:top-96">
+        <div className=" inset-0 absolute top-40 sm:top-60">
           <ActiveSlider />
         </div>
       </div>
