@@ -18,7 +18,7 @@ export default function Home() {
           <ActiveSlider />
           <Link
             href={"/vorur"}
-            className="sm:hidden block text-center border-2 border-red-500 mx-40 text-xl  rounded-md p-1"
+            className="sm:hidden block text-center border-2 border-red-500 mx-36 text-xl  rounded-md p-1"
           >
             {" "}
             Allar Vörur
