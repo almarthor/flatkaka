@@ -15,7 +15,7 @@ const VorurDetail = () => {
   return (
     <div className="p-8">
       <div className="text-center mb-8">
-        <h1 className="text-5xl font-bold mt-9 text-gray-800">{item.title}</h1>
+        <h1 className="text-3xl font-bold mt-9 text-gray-800">{item.title}</h1>
       </div>
       <div className="flex justify-center relative">
         <div
