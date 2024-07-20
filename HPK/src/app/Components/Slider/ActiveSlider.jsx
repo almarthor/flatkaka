@@ -47,7 +47,7 @@ const ActiveSlider = () => {
         {ServiceData.map((item) => (
           <SwiperSlide key={item.title}>
             <Link href={`/vorur/[title]?title=${item.title}`}>
-              <div className="bg-gray-100 bg-opacity-70 hover:bg-opacity-100 flex flex-col mb-20 border-2 border-solid border-red-500 hover:border-green-600 hover:shadow-2xl group relative shadow-lg rounded-xl h-[400px] sm:h-[400px] sm:w-full overflow-hidden cursor-pointer">
+              <div className="bg-gray-100 bg-opacity-70 hover:bg-opacity-100 flex flex-col  border-2 border-solid border-red-500 hover:border-green-600 hover:shadow-2xl group relative shadow-lg rounded-xl h-[400px] sm:h-[400px] sm:w-full overflow-hidden cursor-pointer">
                 <div className="flex flex-col h-full bg-transparent p-4">
                   <div className="h-16 flex items-center justify-center border-b-2 border-red-500  bg-transparent">
                     <h2 className="text-xl lg:text-2xl text-center px-5">

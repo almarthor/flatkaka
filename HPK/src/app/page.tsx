@@ -11,7 +11,7 @@ export default function Home() {
       <TopNav />
       <div className="relative h-screen">
         <HeroScreen />
-        <div className="absolute inset-x-0 top-40 sm:top-60">
+        <div className="absolute inset-x-0 top-32 sm:top-60">
           <ActiveSlider />
           <div className="flex justify-center mt-4 sm:hidden">
             <Link
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-4">
+      <div className="">
         <UmOkkur />
       </div>
     </div>
