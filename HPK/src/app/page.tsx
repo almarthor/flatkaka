@@ -11,7 +11,7 @@ export default function Home() {
       <TopNav />
       <div className="sticky top-0 h-[800px]">
         <HeroScreen />
-        <div className=" inset-0 absolute top-60 sm:top-80">
+        <div className=" inset-0 absolute top-60 sm:top-96">
           <ActiveSlider />
         </div>
       </div>
