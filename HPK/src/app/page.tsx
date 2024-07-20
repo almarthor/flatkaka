@@ -10,7 +10,9 @@ export default function Home() {
     <div className="bg-gray-50">
       <TopNav />
       <div className="sticky top-0 h-[800px] sm:h-screen">
-        <HeroScreen />
+        <div className="hidden sm:block">
+          <HeroScreen />
+        </div>
         <div className=" inset-0 absolute top-40 sm:top-60">
           <ActiveSlider />
         </div>
