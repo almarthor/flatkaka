@@ -1,4 +1,4 @@
-// src/app/Components/Slider/ActiveSlider.tsx
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -9,6 +9,21 @@ import { ServiceData } from "../constants";
 import Link from "next/link";
 
 const ActiveSlider = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 680);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="flex items-center justify-center flex-col relative w-full">
       <Swiper
@@ -36,20 +51,24 @@ const ActiveSlider = () => {
           prevEl: ".swiper-button-prev",
         }}
         loop={true}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false,
-        }}
+        autoplay={
+          !isMobile
+            ? {
+                delay: 2000,
+                disableOnInteraction: false,
+              }
+            : false
+        }
         speed={2000}
-        modules={[FreeMode, Navigation]}
+        modules={[FreeMode, Autoplay, Navigation]}
         className="w-full"
       >
         {ServiceData.map((item) => (
           <SwiperSlide key={item.title}>
             <Link href={`/vorur/[title]?title=${item.title}`}>
-              <div className="bg-gray-100 bg-opacity-70 hover:bg-opacity-100 flex flex-col  border-2 border-solid border-red-500 hover:border-green-600 hover:shadow-2xl group relative shadow-lg rounded-xl h-[400px] sm:h-[400px] sm:w-full overflow-hidden cursor-pointer">
+              <div className="bg-gray-100 bg-opacity-70 hover:bg-opacity-100 flex flex-col border-2 border-solid border-red-500 hover:border-green-600 hover:shadow-2xl group relative shadow-lg rounded-xl h-[400px] sm:h-[400px] sm:w-full overflow-hidden cursor-pointer">
                 <div className="flex flex-col h-full bg-transparent p-4">
-                  <div className="h-16 flex items-center justify-center border-b-2 border-red-500  bg-transparent">
+                  <div className="h-16 flex items-center justify-center border-b-2 border-red-500 bg-transparent">
                     <h2 className="text-xl lg:text-2xl text-center px-5">
                       {item.title}
                     </h2>
@@ -71,8 +90,8 @@ const ActiveSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className=" sm:hidden swiper-button-prev custom-swiper-button absolute left-0 top-0 bottom-0 my-auto cursor-pointer"></div>
-      <div className=" sm:hidden swiper-button-next custom-swiper-button absolute right-0 top-0 bottom-0 my-auto cursor-pointer"></div>
+      <div className="sm:hidden swiper-button-prev custom-swiper-button absolute left-0 top-0 bottom-0 my-auto cursor-pointer"></div>
+      <div className="sm:hidden swiper-button-next custom-swiper-button absolute right-0 top-0 bottom-0 my-auto cursor-pointer"></div>
     </div>
   );
 };
